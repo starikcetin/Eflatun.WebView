@@ -4,7 +4,7 @@ using System.Text;
 using System.Xml;
 using UnityEditor.Android;
 using UnityEditor.Callbacks;
-//using UnityEditor.iOS.Xcode;
+using UnityEditor.iOS.Xcode;
 using UnityEditor;
 using UnityEngine;
 
@@ -79,14 +79,14 @@ public class UnityWebViewPostprocessBuild
 #endif
         }
 #endif
-//        if (buildTarget == BuildTarget.iOS) {
-//            string projPath = path + "/Unity-iPhone.xcodeproj/project.pbxproj";
-//            PBXProject proj = new PBXProject();
-//            proj.ReadFromString(File.ReadAllText(projPath));
-//            string target = proj.TargetGuidByName("Unity-iPhone");
-//            proj.AddFrameworkToProject(target, "WebKit.framework", false);
-//            File.WriteAllText(projPath, proj.WriteToString());
-//        }
+        if (buildTarget == BuildTarget.iOS) {
+            string projPath = path + "/Unity-iPhone.xcodeproj/project.pbxproj";
+            PBXProject proj = new PBXProject();
+            proj.ReadFromString(File.ReadAllText(projPath));
+            string target = proj.TargetGuidByName("Unity-iPhone");
+            proj.AddFrameworkToProject(target, "WebKit.framework", false);
+            File.WriteAllText(projPath, proj.WriteToString());
+        }
     }
 
     private static XmlElement SearchActivity(XmlDocument doc) {
