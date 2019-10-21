@@ -24,7 +24,6 @@
  */
 
 using System.Collections;
-using Eflatun.MobileWebView.Utils;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;

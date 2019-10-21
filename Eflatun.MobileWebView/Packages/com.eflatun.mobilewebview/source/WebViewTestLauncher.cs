@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Eflatun.MobileWebView.Testing
+namespace Eflatun.MobileWebView
 {
     public class WebViewTestLauncher : MonoBehaviour
     {
