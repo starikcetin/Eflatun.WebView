@@ -1,9 +1,9 @@
 {
   "author": "starikcetin <cetinsamedtarik@gmail.com> (https://github.com/starikcetin)",
-  "description": "Mobile WebView for Unity.",
-  "displayName": "Eflatun.MobileWebView",
+  "description": "WebView for Unity.",
+  "displayName": "Eflatun.WebView",
   "license": "MIT",
-  "name": "com.eflatun.mobilewebview",
+  "name": "com.eflatun.webview",
   "version": "0.0.1",
   "dependencies": {
     "com.unity.textmeshpro": "2.0.1"
