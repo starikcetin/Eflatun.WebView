@@ -1,0 +1,11 @@
+{
+  "author": "starikcetin <cetinsamedtarik@gmail.com> (https://github.com/starikcetin)",
+  "description": "WebView for Unity.",
+  "displayName": "Eflatun.WebView",
+  "license": "MIT",
+  "name": "com.eflatun.webview",
+  "version": "0.0.1",
+  "dependencies": {
+    "com.unity.textmeshpro": "2.0.1"
+  }
+}
