@@ -29,7 +29,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-namespace Eflatun.MobileWebView
+namespace Eflatun.WebView
 {
     public class WebViewController : MonoBehaviour
     {

@@ -39,7 +39,7 @@ public class UnitySendMessageDispatcher
 }
 #endif
 
-namespace Eflatun.MobileWebView
+namespace Eflatun.WebView
 {
     public class WebViewObject : MonoBehaviour
     {

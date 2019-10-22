@@ -1,4 +1,3 @@
-using System.Collections;
 using System.IO;
 using System.Text;
 using System.Xml;
@@ -8,7 +7,7 @@ using UnityEditor.Callbacks;
 using UnityEditor.iOS.Xcode;
 using UnityEngine;
 
-namespace Eflatun.MobileWebView.Editor
+namespace Eflatun.WebView.Editor
 {
 #if UNITY_2018_1_OR_NEWER
     public class UnityWebViewPostprocessBuild : IPostGenerateGradleAndroidProject

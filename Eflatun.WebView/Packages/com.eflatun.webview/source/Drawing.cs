@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Eflatun.MobileWebView
+namespace Eflatun.WebView
 {
     public static class Drawing
     {
