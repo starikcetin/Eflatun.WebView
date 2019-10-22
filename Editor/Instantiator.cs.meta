@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 69fc2d11249bcd246b198437bb3c3465
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _webView: {fileID: 1632881968101609502, guid: 4321ef14f2275194a950323be7588f5a,
+      type: 3}
+  - _webViewTestLauncher: {fileID: 7568444499219820220, guid: 8610ef9c45809b24d821b05acc899119,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
